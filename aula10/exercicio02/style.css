@@ -1,0 +1,13 @@
+button {
+    border: none;
+    background: greenyellow;
+    padding: 5px 15px;
+    border-radius: 9999px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #ccc;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
