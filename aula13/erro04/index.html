@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="nome">
+    <script>
+        try {
+            let nome = document.getElementById("nome").value
+            cadastroUsuario(nome)
+        } catch (e) {
+            alert("Algo deu errado: " + e.message)
+        }
+    </script>
+</body>
+
+</html>
