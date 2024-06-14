@@ -49,7 +49,7 @@ async function fetchCatImages() {
             })
         })
 
-        console.log('Imagens de gatos recebidas:', data)
+        console.log('Imagens de gatos recebidass:', data)
     } catch (error) {
         console.error('Erro:', error)
     }
